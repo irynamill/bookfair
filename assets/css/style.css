@@ -621,6 +621,14 @@ section {
   text-align: center;
 }
 
+.about .container-test .row .booksImage {
+  text-align: center;
+}
+
+.about .container-test .row .content {
+  text-align: left;
+}
+
 .about .content h3 {
   font-weight: 600;
   font-size: 32px;
