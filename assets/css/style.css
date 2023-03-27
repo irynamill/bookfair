@@ -627,6 +627,8 @@ section {
 
 .about .container-test .row .content {
   text-align: left;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .about .content h3 {
