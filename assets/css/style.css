@@ -621,6 +621,11 @@ section {
   text-align: center;
 }
 
+.about .container-test {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .about .container-test .row .booksImage {
   text-align: center;
 }
