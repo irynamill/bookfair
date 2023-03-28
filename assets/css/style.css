@@ -432,9 +432,11 @@ h6 {
   background-size: cover;
 }
 
-#hero .container,
-#hero .container-fluid {
-  padding-top: 84px;
+@media screen and (min-width: 768px) {
+  #hero .container,
+  #hero .container-fluid {
+    padding-top: 84px;
+  }
 }
 
 #hero h1 {
@@ -512,11 +514,7 @@ h6 {
     text-align: center;
   }
 
-  #hero .container,
-  #hero .container-fluid {
-    padding-top: 68px;
-  }
-
+ 
   #hero .animated {
     animation: none;
   }
@@ -628,6 +626,7 @@ section {
 
 .about .container-test .row .booksImage {
   text-align: center;
+  padding-bottom: 30px;
 }
 
 .about .container-test .row .content {
