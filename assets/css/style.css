@@ -695,6 +695,12 @@ section {
   top: 12px;
 }
 
+@media (max-width: 575px) {
+  .about .container-test .content {
+    padding-bottom: 20%;
+  }
+}
+
 .about .container-test .information {
   text-align: center;
   padding-top: 20%;
@@ -959,6 +965,10 @@ section {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.contact .container .section-title .whatsapp img {
+  padding-top: 15px;
 }
 
 /*--------------------------------------------------------------
